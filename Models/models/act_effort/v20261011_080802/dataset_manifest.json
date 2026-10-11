@@ -1,0 +1,317 @@
+{
+  "dataset_id": "nasa93_aerospace_projects_bcc97ecc",
+  "name": "NASA93 Aerospace Projects",
+  "domain": "software",
+  "license": "NASA / PROMISE Repository",
+  "source": "http://promise.site.uottawa.ca/SERepository",
+  "notes": "",
+  "ingestion_timestamp": "2026-10-11T08:08:02.532597+00:00",
+  "original_filename": "nasa93.arff",
+  "raw_file_path": "data\\raw\\nasa93_aerospace_projects_bcc97ecc\\nasa93.arff",
+  "processed_file_path": "data\\processed\\nasa93_aerospace_projects_bcc97ecc\\data.csv",
+  "sha256": "bcc97ecc9ab3f0f05da692075288d682478866bf8a7bb2b779b6b8de617d41d5",
+  "row_count": 93,
+  "column_count": 24,
+  "columns": [
+    "recordnumber",
+    "projectname",
+    "cat2",
+    "forg",
+    "center",
+    "year",
+    "mode",
+    "rely",
+    "data",
+    "cplx",
+    "time",
+    "stor",
+    "virt",
+    "turn",
+    "acap",
+    "aexp",
+    "pcap",
+    "vexp",
+    "lexp",
+    "modp",
+    "tool",
+    "sced",
+    "equivphyskloc",
+    "act_effort"
+  ],
+  "schema": {
+    "recordnumber": {
+      "type": "numeric",
+      "non_null_count": 93,
+      "unique_count": 93
+    },
+    "projectname": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 8
+    },
+    "cat2": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 14
+    },
+    "forg": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 2
+    },
+    "center": {
+      "type": "numeric",
+      "non_null_count": 93,
+      "unique_count": 5
+    },
+    "year": {
+      "type": "numeric",
+      "non_null_count": 93,
+      "unique_count": 14
+    },
+    "mode": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 3
+    },
+    "rely": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 4
+    },
+    "data": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 4
+    },
+    "cplx": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 5
+    },
+    "time": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 4
+    },
+    "stor": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 4
+    },
+    "virt": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 3
+    },
+    "turn": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 4
+    },
+    "acap": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 3
+    },
+    "aexp": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 4
+    },
+    "pcap": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 3
+    },
+    "vexp": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 4
+    },
+    "lexp": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 4
+    },
+    "modp": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 5
+    },
+    "tool": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 5
+    },
+    "sced": {
+      "type": "categorical",
+      "non_null_count": 93,
+      "unique_count": 3
+    },
+    "equivphyskloc": {
+      "type": "numeric",
+      "non_null_count": 93,
+      "unique_count": 79
+    },
+    "act_effort": {
+      "type": "numeric",
+      "non_null_count": 93,
+      "unique_count": 74
+    }
+  },
+  "quality_summary": {
+    "total_rows": 93,
+    "total_columns": 24,
+    "duplicate_rows": 0,
+    "overall_missing_percentage": 0.0,
+    "missing_per_column": {
+      "recordnumber": 0,
+      "projectname": 0,
+      "cat2": 0,
+      "forg": 0,
+      "center": 0,
+      "year": 0,
+      "mode": 0,
+      "rely": 0,
+      "data": 0,
+      "cplx": 0,
+      "time": 0,
+      "stor": 0,
+      "virt": 0,
+      "turn": 0,
+      "acap": 0,
+      "aexp": 0,
+      "pcap": 0,
+      "vexp": 0,
+      "lexp": 0,
+      "modp": 0,
+      "tool": 0,
+      "sced": 0,
+      "equivphyskloc": 0,
+      "act_effort": 0
+    },
+    "missing_percentage_per_column": {
+      "recordnumber": 0.0,
+      "projectname": 0.0,
+      "cat2": 0.0,
+      "forg": 0.0,
+      "center": 0.0,
+      "year": 0.0,
+      "mode": 0.0,
+      "rely": 0.0,
+      "data": 0.0,
+      "cplx": 0.0,
+      "time": 0.0,
+      "stor": 0.0,
+      "virt": 0.0,
+      "turn": 0.0,
+      "acap": 0.0,
+      "aexp": 0.0,
+      "pcap": 0.0,
+      "vexp": 0.0,
+      "lexp": 0.0,
+      "modp": 0.0,
+      "tool": 0.0,
+      "sced": 0.0,
+      "equivphyskloc": 0.0,
+      "act_effort": 0.0
+    },
+    "column_types": {
+      "recordnumber": "numeric",
+      "projectname": "categorical",
+      "cat2": "categorical",
+      "forg": "categorical",
+      "center": "numeric",
+      "year": "numeric",
+      "mode": "categorical",
+      "rely": "categorical",
+      "data": "categorical",
+      "cplx": "categorical",
+      "time": "categorical",
+      "stor": "categorical",
+      "virt": "categorical",
+      "turn": "categorical",
+      "acap": "categorical",
+      "aexp": "categorical",
+      "pcap": "categorical",
+      "vexp": "categorical",
+      "lexp": "categorical",
+      "modp": "categorical",
+      "tool": "categorical",
+      "sced": "categorical",
+      "equivphyskloc": "numeric",
+      "act_effort": "numeric"
+    },
+    "numeric_stats": {
+      "recordnumber": {
+        "min": 1.0,
+        "median": 47.0,
+        "mean": 47.75268817204301,
+        "max": 101.0,
+        "std": 28.229900858447824,
+        "zeros": 0
+      },
+      "center": {
+        "min": 1.0,
+        "median": 2.0,
+        "mean": 3.2795698924731185,
+        "max": 6.0,
+        "std": 1.6834591161074934,
+        "zeros": 0
+      },
+      "year": {
+        "min": 1971.0,
+        "median": 1980.0,
+        "mean": 1980.8279569892472,
+        "max": 1987.0,
+        "std": 3.3350042562842876,
+        "zeros": 0
+      },
+      "equivphyskloc": {
+        "min": 0.9,
+        "median": 47.5,
+        "mean": 94.02204301075268,
+        "max": 980.0,
+        "std": 133.5979471867733,
+        "zeros": 0
+      },
+      "act_effort": {
+        "min": 8.4,
+        "median": 252.0,
+        "mean": 624.4118279569893,
+        "max": 8211.0,
+        "std": 1135.9280652026785,
+        "zeros": 0
+      }
+    },
+    "extreme_outlier_counts_3iqr": {
+      "recordnumber": 0,
+      "projectname": 0,
+      "cat2": 0,
+      "forg": 0,
+      "center": 0,
+      "year": 0,
+      "mode": 0,
+      "rely": 0,
+      "data": 0,
+      "cplx": 0,
+      "time": 0,
+      "stor": 0,
+      "virt": 0,
+      "turn": 0,
+      "acap": 0,
+      "aexp": 0,
+      "pcap": 0,
+      "vexp": 0,
+      "lexp": 0,
+      "modp": 0,
+      "tool": 0,
+      "sced": 0,
+      "equivphyskloc": 2,
+      "act_effort": 6
+    },
+    "sample_size_adequate_for_ml": true,
+    "sample_size_recommended": true
+  }
+}

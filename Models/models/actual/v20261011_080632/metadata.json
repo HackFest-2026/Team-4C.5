@@ -1,0 +1,12 @@
+{
+  "algorithm": "HistGradBoost",
+  "target": "actual",
+  "version": "v20261011_080632",
+  "dataset_id": "cocomo-81_software_projects_f7deb2ce",
+  "status": "APPROVED",
+  "trained_at": "2026-10-11T08:06:33.114887+00:00",
+  "random_seed": 42,
+  "split_strategy": "random",
+  "train_rows": 50,
+  "test_rows": 13
+}

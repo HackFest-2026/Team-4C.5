@@ -1,0 +1,12 @@
+{
+  "algorithm": "RandomForest",
+  "target": "Actual.effort",
+  "version": "v20261011_080759",
+  "dataset_id": "kitchenham_industrial_maintenance_0832342b",
+  "status": "APPROVED",
+  "trained_at": "2026-10-11T08:08:01.306656+00:00",
+  "random_seed": 42,
+  "split_strategy": "random",
+  "train_rows": 116,
+  "test_rows": 29
+}

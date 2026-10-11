@@ -1,0 +1,40 @@
+{
+  "target": "Effort",
+  "features": {
+    "AFP": "numeric",
+    "Input": "numeric",
+    "Output": "numeric",
+    "Enquiry": "numeric",
+    "File": "numeric",
+    "Interface": "numeric",
+    "Added": "numeric",
+    "Changed": "numeric",
+    "Deleted": "numeric",
+    "PDR_AFP": "numeric",
+    "PDR_UFP": "numeric",
+    "NPDR_AFP": "numeric",
+    "NPDU_UFP": "numeric",
+    "Resource": "numeric",
+    "Dev.Type": "numeric",
+    "Duration": "numeric"
+  },
+  "numeric_features": [
+    "AFP",
+    "Input",
+    "Output",
+    "Enquiry",
+    "File",
+    "Interface",
+    "Added",
+    "Changed",
+    "Deleted",
+    "PDR_AFP",
+    "PDR_UFP",
+    "NPDR_AFP",
+    "NPDU_UFP",
+    "Resource",
+    "Dev.Type",
+    "Duration"
+  ],
+  "categorical_features": []
+}

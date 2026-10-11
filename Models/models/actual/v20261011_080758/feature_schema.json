@@ -1,0 +1,45 @@
+{
+  "target": "actual",
+  "features": {
+    "num": "numeric",
+    "dev_mode": "categorical",
+    "rely": "numeric",
+    "data": "numeric",
+    "cplx": "numeric",
+    "time": "numeric",
+    "stor": "numeric",
+    "virt": "numeric",
+    "turn": "numeric",
+    "acap": "numeric",
+    "aexp": "numeric",
+    "pcap": "numeric",
+    "vexp": "numeric",
+    "lexp": "numeric",
+    "modp": "numeric",
+    "tool": "numeric",
+    "sced": "numeric",
+    "loc": "numeric"
+  },
+  "numeric_features": [
+    "num",
+    "rely",
+    "data",
+    "cplx",
+    "time",
+    "stor",
+    "virt",
+    "turn",
+    "acap",
+    "aexp",
+    "pcap",
+    "vexp",
+    "lexp",
+    "modp",
+    "tool",
+    "sced",
+    "loc"
+  ],
+  "categorical_features": [
+    "dev_mode"
+  ]
+}

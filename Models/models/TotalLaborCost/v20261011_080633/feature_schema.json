@@ -1,0 +1,26 @@
+{
+  "target": "TotalLaborCost",
+  "features": {
+    "Actual des": "numeric",
+    "Adjustment": "numeric",
+    "ExternalInterface": "numeric",
+    "ExternalInputs": "numeric",
+    "ExternalOutputs": "numeric",
+    "ExternalQueries": "numeric",
+    "HoursToCount": "numeric",
+    "InternalLogicalFiles": "numeric",
+    "TotalUFP": "numeric"
+  },
+  "numeric_features": [
+    "Actual des",
+    "Adjustment",
+    "ExternalInterface",
+    "ExternalInputs",
+    "ExternalOutputs",
+    "ExternalQueries",
+    "HoursToCount",
+    "InternalLogicalFiles",
+    "TotalUFP"
+  ],
+  "categorical_features": []
+}

@@ -1,0 +1,297 @@
+{
+  "dataset_id": "ucp_systems_projects_42985376",
+  "name": "UCP Systems Projects",
+  "domain": "software",
+  "license": "Research Benchmark",
+  "source": "http://promise.site.uottawa.ca/SERepository",
+  "notes": "",
+  "ingestion_timestamp": "2026-10-11T08:08:03.900716+00:00",
+  "original_filename": "UCP_Dataset.csv",
+  "raw_file_path": "data\\raw\\ucp_systems_projects_42985376\\UCP_Dataset.csv",
+  "processed_file_path": "data\\processed\\ucp_systems_projects_42985376\\data.csv",
+  "sha256": "42985376107e3fc2aca9f12251a1f2d57ba328db5148a47df346cf0e4726ddf0",
+  "row_count": 71,
+  "column_count": 18,
+  "columns": [
+    "Project_No",
+    "Simple Actors",
+    "Average Actors",
+    "Complex Actors",
+    "UAW",
+    "Simple UC",
+    "Average UC",
+    "Complex UC",
+    "UUCW",
+    "TCF",
+    "ECF",
+    "Real_P20",
+    "Real_Effort_Person_Hours",
+    "Sector",
+    "Language",
+    "Methodology",
+    "ApplicationType",
+    "DataDonator"
+  ],
+  "schema": {
+    "Project_No": {
+      "type": "numeric",
+      "non_null_count": 71,
+      "unique_count": 71
+    },
+    "Simple Actors": {
+      "type": "numeric",
+      "non_null_count": 70,
+      "unique_count": 4
+    },
+    "Average Actors": {
+      "type": "numeric",
+      "non_null_count": 71,
+      "unique_count": 4
+    },
+    "Complex Actors": {
+      "type": "numeric",
+      "non_null_count": 71,
+      "unique_count": 7
+    },
+    "UAW": {
+      "type": "numeric",
+      "non_null_count": 71,
+      "unique_count": 8
+    },
+    "Simple UC": {
+      "type": "numeric",
+      "non_null_count": 71,
+      "unique_count": 9
+    },
+    "Average UC": {
+      "type": "numeric",
+      "non_null_count": 71,
+      "unique_count": 21
+    },
+    "Complex UC": {
+      "type": "numeric",
+      "non_null_count": 71,
+      "unique_count": 16
+    },
+    "UUCW": {
+      "type": "numeric",
+      "non_null_count": 71,
+      "unique_count": 37
+    },
+    "TCF": {
+      "type": "categorical",
+      "non_null_count": 71,
+      "unique_count": 23
+    },
+    "ECF": {
+      "type": "categorical",
+      "non_null_count": 71,
+      "unique_count": 23
+    },
+    "Real_P20": {
+      "type": "categorical",
+      "non_null_count": 71,
+      "unique_count": 70
+    },
+    "Real_Effort_Person_Hours": {
+      "type": "numeric",
+      "non_null_count": 71,
+      "unique_count": 70
+    },
+    "Sector": {
+      "type": "categorical",
+      "non_null_count": 63,
+      "unique_count": 10
+    },
+    "Language": {
+      "type": "categorical",
+      "non_null_count": 56,
+      "unique_count": 13
+    },
+    "Methodology": {
+      "type": "categorical",
+      "non_null_count": 22,
+      "unique_count": 7
+    },
+    "ApplicationType": {
+      "type": "categorical",
+      "non_null_count": 50,
+      "unique_count": 5
+    },
+    "DataDonator": {
+      "type": "categorical",
+      "non_null_count": 71,
+      "unique_count": 3
+    }
+  },
+  "quality_summary": {
+    "total_rows": 71,
+    "total_columns": 18,
+    "duplicate_rows": 0,
+    "overall_missing_percentage": 7.36,
+    "missing_per_column": {
+      "Project_No": 0,
+      "Simple Actors": 1,
+      "Average Actors": 0,
+      "Complex Actors": 0,
+      "UAW": 0,
+      "Simple UC": 0,
+      "Average UC": 0,
+      "Complex UC": 0,
+      "UUCW": 0,
+      "TCF": 0,
+      "ECF": 0,
+      "Real_P20": 0,
+      "Real_Effort_Person_Hours": 0,
+      "Sector": 8,
+      "Language": 15,
+      "Methodology": 49,
+      "ApplicationType": 21,
+      "DataDonator": 0
+    },
+    "missing_percentage_per_column": {
+      "Project_No": 0.0,
+      "Simple Actors": 1.41,
+      "Average Actors": 0.0,
+      "Complex Actors": 0.0,
+      "UAW": 0.0,
+      "Simple UC": 0.0,
+      "Average UC": 0.0,
+      "Complex UC": 0.0,
+      "UUCW": 0.0,
+      "TCF": 0.0,
+      "ECF": 0.0,
+      "Real_P20": 0.0,
+      "Real_Effort_Person_Hours": 0.0,
+      "Sector": 11.27,
+      "Language": 21.13,
+      "Methodology": 69.01,
+      "ApplicationType": 29.58,
+      "DataDonator": 0.0
+    },
+    "column_types": {
+      "Project_No": "numeric",
+      "Simple Actors": "numeric",
+      "Average Actors": "numeric",
+      "Complex Actors": "numeric",
+      "UAW": "numeric",
+      "Simple UC": "numeric",
+      "Average UC": "numeric",
+      "Complex UC": "numeric",
+      "UUCW": "numeric",
+      "TCF": "categorical",
+      "ECF": "categorical",
+      "Real_P20": "categorical",
+      "Real_Effort_Person_Hours": "numeric",
+      "Sector": "categorical",
+      "Language": "categorical",
+      "Methodology": "categorical",
+      "ApplicationType": "categorical",
+      "DataDonator": "categorical"
+    },
+    "numeric_stats": {
+      "Project_No": {
+        "min": 1.0,
+        "median": 36.0,
+        "mean": 36.0,
+        "max": 71.0,
+        "std": 20.639767440550294,
+        "zeros": 0
+      },
+      "Simple Actors": {
+        "min": 0.0,
+        "median": 0.5,
+        "mean": 0.7142857142857143,
+        "max": 4.0,
+        "std": 0.9031804856439454,
+        "zeros": 35
+      },
+      "Average Actors": {
+        "min": 0.0,
+        "median": 1.0,
+        "mean": 0.9436619718309859,
+        "max": 3.0,
+        "std": 0.8764754734350524,
+        "zeros": 26
+      },
+      "Complex Actors": {
+        "min": 0.0,
+        "median": 2.0,
+        "mean": 2.619718309859155,
+        "max": 6.0,
+        "std": 1.496340270537216,
+        "zeros": 1
+      },
+      "UAW": {
+        "min": 6.0,
+        "median": 8.0,
+        "mean": 10.450704225352112,
+        "max": 19.0,
+        "std": 4.9879532945297775,
+        "zeros": 0
+      },
+      "Simple UC": {
+        "min": 0.0,
+        "median": 2.0,
+        "mean": 2.6901408450704225,
+        "max": 20.0,
+        "std": 2.8764638474337825,
+        "zeros": 11
+      },
+      "Average UC": {
+        "min": 3.0,
+        "median": 15.0,
+        "mean": 15.76056338028169,
+        "max": 30.0,
+        "std": 5.378435217826289,
+        "zeros": 0
+      },
+      "Complex UC": {
+        "min": 5.0,
+        "median": 15.0,
+        "mean": 14.295774647887324,
+        "max": 27.0,
+        "std": 4.422004607470569,
+        "zeros": 0
+      },
+      "UUCW": {
+        "min": 250.0,
+        "median": 355.0,
+        "mean": 385.49295774647885,
+        "max": 610.0,
+        "std": 88.48387637456678,
+        "zeros": 0
+      },
+      "Real_Effort_Person_Hours": {
+        "min": 5775.0,
+        "median": 6412.0,
+        "mean": 6571.267605633803,
+        "max": 7970.0,
+        "std": 667.8851260882363,
+        "zeros": 0
+      }
+    },
+    "extreme_outlier_counts_3iqr": {
+      "Project_No": 0,
+      "Simple Actors": 0,
+      "Average Actors": 0,
+      "Complex Actors": 0,
+      "UAW": 0,
+      "Simple UC": 1,
+      "Average UC": 0,
+      "Complex UC": 0,
+      "UUCW": 0,
+      "TCF": 0,
+      "ECF": 0,
+      "Real_P20": 0,
+      "Real_Effort_Person_Hours": 0,
+      "Sector": 0,
+      "Language": 0,
+      "Methodology": 0,
+      "ApplicationType": 0,
+      "DataDonator": 0
+    },
+    "sample_size_adequate_for_ml": true,
+    "sample_size_recommended": true
+  }
+}

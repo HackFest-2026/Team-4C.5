@@ -1,0 +1,22 @@
+{
+  "target": "MM",
+  "features": {
+    "KLOC": "numeric",
+    "SCRN": "numeric",
+    "FORM": "numeric",
+    "FILE": "numeric",
+    "ESCRN": "numeric",
+    "EFORM": "numeric",
+    "EFILE": "numeric"
+  },
+  "numeric_features": [
+    "KLOC",
+    "SCRN",
+    "FORM",
+    "FILE",
+    "ESCRN",
+    "EFORM",
+    "EFILE"
+  ],
+  "categorical_features": []
+}

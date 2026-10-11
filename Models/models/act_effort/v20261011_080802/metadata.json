@@ -1,0 +1,12 @@
+{
+  "algorithm": "RandomForest",
+  "target": "act_effort",
+  "version": "v20261011_080802",
+  "dataset_id": "nasa93_aerospace_projects_bcc97ecc",
+  "status": "APPROVED",
+  "trained_at": "2026-10-11T08:08:03.340084+00:00",
+  "random_seed": 42,
+  "split_strategy": "random",
+  "train_rows": 74,
+  "test_rows": 19
+}

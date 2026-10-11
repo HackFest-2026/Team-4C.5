@@ -1,0 +1,137 @@
+{
+  "dataset_id": "valdes-souto_cosmic_projects_d698fdae",
+  "name": "Valdes-Souto COSMIC Projects",
+  "domain": "software",
+  "license": "Research Benchmark",
+  "source": "http://promise.site.uottawa.ca/SERepository",
+  "notes": "",
+  "ingestion_timestamp": "2026-10-11T08:08:04.548457+00:00",
+  "original_filename": "Valdes-Souto.csv",
+  "raw_file_path": "data\\raw\\valdes-souto_cosmic_projects_d698fdae\\Valdes-Souto.csv",
+  "processed_file_path": "data\\processed\\valdes-souto_cosmic_projects_d698fdae\\data.csv",
+  "sha256": "d698fdae34b7e0452123f8eda604f777e6e683531e5d00bbf3b9cd19cbaede1b",
+  "row_count": 57,
+  "column_count": 6,
+  "columns": [
+    "Projct",
+    "BASE",
+    "ID",
+    "COSMIC_FP",
+    "Effort",
+    "HH_CFP"
+  ],
+  "schema": {
+    "Projct": {
+      "type": "numeric",
+      "non_null_count": 57,
+      "unique_count": 57
+    },
+    "BASE": {
+      "type": "categorical",
+      "non_null_count": 57,
+      "unique_count": 3
+    },
+    "ID": {
+      "type": "numeric",
+      "non_null_count": 57,
+      "unique_count": 34
+    },
+    "COSMIC_FP": {
+      "type": "numeric",
+      "non_null_count": 57,
+      "unique_count": 56
+    },
+    "Effort": {
+      "type": "numeric",
+      "non_null_count": 57,
+      "unique_count": 55
+    },
+    "HH_CFP": {
+      "type": "numeric",
+      "non_null_count": 57,
+      "unique_count": 55
+    }
+  },
+  "quality_summary": {
+    "total_rows": 57,
+    "total_columns": 6,
+    "duplicate_rows": 0,
+    "overall_missing_percentage": 0.0,
+    "missing_per_column": {
+      "Projct": 0,
+      "BASE": 0,
+      "ID": 0,
+      "COSMIC_FP": 0,
+      "Effort": 0,
+      "HH_CFP": 0
+    },
+    "missing_percentage_per_column": {
+      "Projct": 0.0,
+      "BASE": 0.0,
+      "ID": 0.0,
+      "COSMIC_FP": 0.0,
+      "Effort": 0.0,
+      "HH_CFP": 0.0
+    },
+    "column_types": {
+      "Projct": "numeric",
+      "BASE": "categorical",
+      "ID": "numeric",
+      "COSMIC_FP": "numeric",
+      "Effort": "numeric",
+      "HH_CFP": "numeric"
+    },
+    "numeric_stats": {
+      "Projct": {
+        "min": 1.0,
+        "median": 29.0,
+        "mean": 29.0,
+        "max": 57.0,
+        "std": 16.59819267269783,
+        "zeros": 0
+      },
+      "ID": {
+        "min": 1.0,
+        "median": 11.0,
+        "mean": 13.175438596491228,
+        "max": 34.0,
+        "std": 9.667919718284695,
+        "zeros": 0
+      },
+      "COSMIC_FP": {
+        "min": 2.9,
+        "median": 193.1,
+        "mean": 385.380701754386,
+        "max": 2085.5,
+        "std": 495.34112504075574,
+        "zeros": 0
+      },
+      "Effort": {
+        "min": 16.0,
+        "median": 1848.0,
+        "mean": 4869.268421052632,
+        "max": 47493.0,
+        "std": 7913.933384840894,
+        "zeros": 0
+      },
+      "HH_CFP": {
+        "min": 0.21,
+        "median": 10.17,
+        "mean": 14.431052631578947,
+        "max": 140.69,
+        "std": 19.564991391715324,
+        "zeros": 0
+      }
+    },
+    "extreme_outlier_counts_3iqr": {
+      "Projct": 0,
+      "BASE": 0,
+      "ID": 0,
+      "COSMIC_FP": 3,
+      "Effort": 1,
+      "HH_CFP": 1
+    },
+    "sample_size_adequate_for_ml": true,
+    "sample_size_recommended": true
+  }
+}

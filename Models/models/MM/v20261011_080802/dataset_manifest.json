@@ -1,0 +1,191 @@
+{
+  "dataset_id": "miyazaki_fujitsu_projects_eeeb66f9",
+  "name": "Miyazaki Fujitsu Projects",
+  "domain": "software",
+  "license": "PROMISE Repository Research Use",
+  "source": "http://promise.site.uottawa.ca/SERepository",
+  "notes": "",
+  "ingestion_timestamp": "2026-10-11T08:08:02.022994+00:00",
+  "original_filename": "miyazaki94.arff",
+  "raw_file_path": "data\\raw\\miyazaki_fujitsu_projects_eeeb66f9\\miyazaki94.arff",
+  "processed_file_path": "data\\processed\\miyazaki_fujitsu_projects_eeeb66f9\\data.csv",
+  "sha256": "eeeb66f91c7f832aea975d69957f74154cc3088e960fabe123dfb4af1dc85186",
+  "row_count": 48,
+  "column_count": 9,
+  "columns": [
+    "ID",
+    "KLOC",
+    "SCRN",
+    "FORM",
+    "FILE",
+    "ESCRN",
+    "EFORM",
+    "EFILE",
+    "MM"
+  ],
+  "schema": {
+    "ID": {
+      "type": "categorical",
+      "non_null_count": 48,
+      "unique_count": 48
+    },
+    "KLOC": {
+      "type": "numeric",
+      "non_null_count": 48,
+      "unique_count": 45
+    },
+    "SCRN": {
+      "type": "numeric",
+      "non_null_count": 48,
+      "unique_count": 36
+    },
+    "FORM": {
+      "type": "numeric",
+      "non_null_count": 48,
+      "unique_count": 34
+    },
+    "FILE": {
+      "type": "numeric",
+      "non_null_count": 48,
+      "unique_count": 33
+    },
+    "ESCRN": {
+      "type": "numeric",
+      "non_null_count": 48,
+      "unique_count": 44
+    },
+    "EFORM": {
+      "type": "numeric",
+      "non_null_count": 48,
+      "unique_count": 45
+    },
+    "EFILE": {
+      "type": "numeric",
+      "non_null_count": 48,
+      "unique_count": 47
+    },
+    "MM": {
+      "type": "numeric",
+      "non_null_count": 48,
+      "unique_count": 44
+    }
+  },
+  "quality_summary": {
+    "total_rows": 48,
+    "total_columns": 9,
+    "duplicate_rows": 0,
+    "overall_missing_percentage": 0.0,
+    "missing_per_column": {
+      "ID": 0,
+      "KLOC": 0,
+      "SCRN": 0,
+      "FORM": 0,
+      "FILE": 0,
+      "ESCRN": 0,
+      "EFORM": 0,
+      "EFILE": 0,
+      "MM": 0
+    },
+    "missing_percentage_per_column": {
+      "ID": 0.0,
+      "KLOC": 0.0,
+      "SCRN": 0.0,
+      "FORM": 0.0,
+      "FILE": 0.0,
+      "ESCRN": 0.0,
+      "EFORM": 0.0,
+      "EFILE": 0.0,
+      "MM": 0.0
+    },
+    "column_types": {
+      "ID": "categorical",
+      "KLOC": "numeric",
+      "SCRN": "numeric",
+      "FORM": "numeric",
+      "FILE": "numeric",
+      "ESCRN": "numeric",
+      "EFORM": "numeric",
+      "EFILE": "numeric",
+      "MM": "numeric"
+    },
+    "numeric_stats": {
+      "KLOC": {
+        "min": 6.9,
+        "median": 45.400000000000006,
+        "mean": 70.79166666666667,
+        "max": 417.6,
+        "std": 87.56779460784809,
+        "zeros": 0
+      },
+      "SCRN": {
+        "min": 0.0,
+        "median": 23.5,
+        "mean": 33.6875,
+        "max": 281.0,
+        "std": 47.236460966935816,
+        "zeros": 4
+      },
+      "FORM": {
+        "min": 0.0,
+        "median": 16.0,
+        "mean": 22.375,
+        "max": 91.0,
+        "std": 20.548463730949027,
+        "zeros": 2
+      },
+      "FILE": {
+        "min": 2.0,
+        "median": 24.5,
+        "mean": 34.8125,
+        "max": 370.0,
+        "std": 53.36452572995453,
+        "zeros": 0
+      },
+      "ESCRN": {
+        "min": 0.0,
+        "median": 322.5,
+        "mean": 525.6041666666666,
+        "max": 3000.0,
+        "std": 626.0580402562558,
+        "zeros": 4
+      },
+      "EFORM": {
+        "min": 0.0,
+        "median": 342.5,
+        "mean": 460.6666666666667,
+        "max": 1566.0,
+        "std": 396.81606936690633,
+        "zeros": 2
+      },
+      "EFILE": {
+        "min": 57.0,
+        "median": 872.5,
+        "mean": 1854.5833333333333,
+        "max": 45000.0,
+        "std": 6398.604691095379,
+        "zeros": 0
+      },
+      "MM": {
+        "min": 5.6,
+        "median": 38.1,
+        "mean": 87.47500000000001,
+        "max": 1586.0,
+        "std": 228.75974342695432,
+        "zeros": 0
+      }
+    },
+    "extreme_outlier_counts_3iqr": {
+      "ID": 0,
+      "KLOC": 5,
+      "SCRN": 3,
+      "FORM": 0,
+      "FILE": 1,
+      "ESCRN": 2,
+      "EFORM": 0,
+      "EFILE": 1,
+      "MM": 5
+    },
+    "sample_size_adequate_for_ml": true,
+    "sample_size_recommended": false
+  }
+}

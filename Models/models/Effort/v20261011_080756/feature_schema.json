@@ -1,0 +1,22 @@
+{
+  "target": "Effort",
+  "features": {
+    "Input": "numeric",
+    "Output": "numeric",
+    "Inquiry": "numeric",
+    "File": "numeric",
+    "FPAdj": "numeric",
+    "RawFPcounts": "numeric",
+    "AdjFP": "numeric"
+  },
+  "numeric_features": [
+    "Input",
+    "Output",
+    "Inquiry",
+    "File",
+    "FPAdj",
+    "RawFPcounts",
+    "AdjFP"
+  ],
+  "categorical_features": []
+}

@@ -1,0 +1,25 @@
+{
+  "target": "Actual.effort",
+  "features": {
+    "Client.code": "numeric",
+    "Project.type": "categorical",
+    "Actual.start.date": "categorical",
+    "Actual.duration": "numeric",
+    "Adjusted.function.points": "numeric",
+    "Estimated.completion.date": "categorical",
+    "First.estimate": "numeric",
+    "First.estimate.method": "categorical"
+  },
+  "numeric_features": [
+    "Client.code",
+    "Actual.duration",
+    "Adjusted.function.points",
+    "First.estimate"
+  ],
+  "categorical_features": [
+    "Project.type",
+    "Actual.start.date",
+    "Estimated.completion.date",
+    "First.estimate.method"
+  ]
+}

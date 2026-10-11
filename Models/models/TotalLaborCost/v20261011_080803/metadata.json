@@ -1,0 +1,12 @@
+{
+  "algorithm": "RandomForest",
+  "target": "TotalLaborCost",
+  "version": "v20261011_080803",
+  "dataset_id": "subbiah_labor_cost_projects_23a1efba",
+  "status": "APPROVED",
+  "trained_at": "2026-10-11T08:08:03.849384+00:00",
+  "random_seed": 42,
+  "split_strategy": "random",
+  "train_rows": 57,
+  "test_rows": 15
+}

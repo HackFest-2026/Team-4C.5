@@ -1,0 +1,12 @@
+{
+  "algorithm": "XGBoost",
+  "target": "Effort",
+  "version": "v20261011_080804",
+  "dataset_id": "valdes-souto_cosmic_projects_d698fdae",
+  "status": "APPROVED",
+  "trained_at": "2026-10-11T08:08:05.032303+00:00",
+  "random_seed": 42,
+  "split_strategy": "random",
+  "train_rows": 45,
+  "test_rows": 12
+}

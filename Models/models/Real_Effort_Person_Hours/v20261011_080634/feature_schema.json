@@ -1,0 +1,39 @@
+{
+  "target": "Real_Effort_Person_Hours",
+  "features": {
+    "Simple Actors": "numeric",
+    "Average Actors": "numeric",
+    "Complex Actors": "numeric",
+    "UAW": "numeric",
+    "Simple UC": "numeric",
+    "Average UC": "numeric",
+    "Complex UC": "numeric",
+    "UUCW": "numeric",
+    "TCF": "categorical",
+    "ECF": "categorical",
+    "Sector": "categorical",
+    "Language": "categorical",
+    "Methodology": "categorical",
+    "ApplicationType": "categorical",
+    "DataDonator": "categorical"
+  },
+  "numeric_features": [
+    "Simple Actors",
+    "Average Actors",
+    "Complex Actors",
+    "UAW",
+    "Simple UC",
+    "Average UC",
+    "Complex UC",
+    "UUCW"
+  ],
+  "categorical_features": [
+    "TCF",
+    "ECF",
+    "Sector",
+    "Language",
+    "Methodology",
+    "ApplicationType",
+    "DataDonator"
+  ]
+}

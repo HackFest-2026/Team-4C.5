@@ -1,0 +1,12 @@
+{
+  "algorithm": "XGBoost",
+  "target": "Effort",
+  "version": "v20261011_073306",
+  "dataset_id": "desharnais_software_projects_38c5d000",
+  "status": "APPROVED",
+  "trained_at": "2026-10-11T07:33:07.220921+00:00",
+  "random_seed": 42,
+  "split_strategy": "random",
+  "train_rows": 64,
+  "test_rows": 17
+}

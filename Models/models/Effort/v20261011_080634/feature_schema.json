@@ -1,0 +1,13 @@
+{
+  "target": "Effort",
+  "features": {
+    "BASE": "categorical",
+    "COSMIC_FP": "numeric"
+  },
+  "numeric_features": [
+    "COSMIC_FP"
+  ],
+  "categorical_features": [
+    "BASE"
+  ]
+}

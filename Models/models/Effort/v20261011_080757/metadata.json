@@ -1,0 +1,12 @@
+{
+  "algorithm": "XGBoost",
+  "target": "Effort",
+  "version": "v20261011_080757",
+  "dataset_id": "china_software_projects_ae9df9c5",
+  "status": "APPROVED",
+  "trained_at": "2026-10-11T08:07:58.111774+00:00",
+  "random_seed": 42,
+  "split_strategy": "random",
+  "train_rows": 399,
+  "test_rows": 100
+}

@@ -1,0 +1,185 @@
+{
+  "dataset_id": "kitchenham_industrial_maintenance_0832342b",
+  "name": "Kitchenham Industrial Maintenance",
+  "domain": "software",
+  "license": "PROMISE Repository Research Use",
+  "source": "http://promise.site.uottawa.ca/SERepository",
+  "notes": "",
+  "ingestion_timestamp": "2026-10-11T08:07:59.811650+00:00",
+  "original_filename": "kitchenham.arff",
+  "raw_file_path": "data\\raw\\kitchenham_industrial_maintenance_0832342b\\kitchenham.arff",
+  "processed_file_path": "data\\processed\\kitchenham_industrial_maintenance_0832342b\\data.csv",
+  "sha256": "0832342b248418cca324cebe77d86d2f90ae223c1119af9360783bdbad0b2ac0",
+  "row_count": 145,
+  "column_count": 10,
+  "columns": [
+    "Project",
+    "Client.code",
+    "Project.type",
+    "Actual.start.date",
+    "Actual.duration",
+    "Actual.effort",
+    "Adjusted.function.points",
+    "Estimated.completion.date",
+    "First.estimate",
+    "First.estimate.method"
+  ],
+  "schema": {
+    "Project": {
+      "type": "numeric",
+      "non_null_count": 145,
+      "unique_count": 145
+    },
+    "Client.code": {
+      "type": "numeric",
+      "non_null_count": 145,
+      "unique_count": 6
+    },
+    "Project.type": {
+      "type": "categorical",
+      "non_null_count": 135,
+      "unique_count": 6
+    },
+    "Actual.start.date": {
+      "type": "categorical",
+      "non_null_count": 145,
+      "unique_count": 128
+    },
+    "Actual.duration": {
+      "type": "numeric",
+      "non_null_count": 145,
+      "unique_count": 112
+    },
+    "Actual.effort": {
+      "type": "numeric",
+      "non_null_count": 145,
+      "unique_count": 140
+    },
+    "Adjusted.function.points": {
+      "type": "numeric",
+      "non_null_count": 145,
+      "unique_count": 144
+    },
+    "Estimated.completion.date": {
+      "type": "categorical",
+      "non_null_count": 142,
+      "unique_count": 123
+    },
+    "First.estimate": {
+      "type": "numeric",
+      "non_null_count": 145,
+      "unique_count": 143
+    },
+    "First.estimate.method": {
+      "type": "categorical",
+      "non_null_count": 145,
+      "unique_count": 6
+    }
+  },
+  "quality_summary": {
+    "total_rows": 145,
+    "total_columns": 10,
+    "duplicate_rows": 0,
+    "overall_missing_percentage": 0.9,
+    "missing_per_column": {
+      "Project": 0,
+      "Client.code": 0,
+      "Project.type": 10,
+      "Actual.start.date": 0,
+      "Actual.duration": 0,
+      "Actual.effort": 0,
+      "Adjusted.function.points": 0,
+      "Estimated.completion.date": 3,
+      "First.estimate": 0,
+      "First.estimate.method": 0
+    },
+    "missing_percentage_per_column": {
+      "Project": 0.0,
+      "Client.code": 0.0,
+      "Project.type": 6.9,
+      "Actual.start.date": 0.0,
+      "Actual.duration": 0.0,
+      "Actual.effort": 0.0,
+      "Adjusted.function.points": 0.0,
+      "Estimated.completion.date": 2.07,
+      "First.estimate": 0.0,
+      "First.estimate.method": 0.0
+    },
+    "column_types": {
+      "Project": "numeric",
+      "Client.code": "numeric",
+      "Project.type": "categorical",
+      "Actual.start.date": "categorical",
+      "Actual.duration": "numeric",
+      "Actual.effort": "numeric",
+      "Adjusted.function.points": "numeric",
+      "Estimated.completion.date": "categorical",
+      "First.estimate": "numeric",
+      "First.estimate.method": "categorical"
+    },
+    "numeric_stats": {
+      "Project": {
+        "min": 1.0,
+        "median": 73.0,
+        "mean": 73.0,
+        "max": 145.0,
+        "std": 42.00198408012015,
+        "zeros": 0
+      },
+      "Client.code": {
+        "min": 1.0,
+        "median": 2.0,
+        "mean": 2.103448275862069,
+        "max": 6.0,
+        "std": 0.86381050142695,
+        "zeros": 0
+      },
+      "Actual.duration": {
+        "min": 37.0,
+        "median": 171.0,
+        "mean": 206.44827586206895,
+        "max": 946.0,
+        "std": 134.092004641635,
+        "zeros": 0
+      },
+      "Actual.effort": {
+        "min": 219.0,
+        "median": 1557.0,
+        "mean": 3113.11724137931,
+        "max": 113930.0,
+        "std": 9598.008922213045,
+        "zeros": 0
+      },
+      "Adjusted.function.points": {
+        "min": 15.36,
+        "median": 260.95,
+        "mean": 527.6693103448275,
+        "max": 18137.48,
+        "std": 1521.9949361440504,
+        "zeros": 0
+      },
+      "First.estimate": {
+        "min": 121.0,
+        "median": 1750.0,
+        "mean": 2855.9724137931034,
+        "max": 79870.0,
+        "std": 6789.287453351325,
+        "zeros": 0
+      }
+    },
+    "extreme_outlier_counts_3iqr": {
+      "Project": 0,
+      "Client.code": 29,
+      "Project.type": 0,
+      "Actual.start.date": 0,
+      "Actual.duration": 1,
+      "Actual.effort": 4,
+      "Adjusted.function.points": 2,
+      "Estimated.completion.date": 0,
+      "First.estimate": 3,
+      "First.estimate.method": 0
+    },
+    "sample_size_adequate_for_ml": true,
+    "sample_size_recommended": true
+  }
+}

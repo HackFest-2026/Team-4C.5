@@ -1,0 +1,12 @@
+{
+  "algorithm": "RandomForest",
+  "target": "Effort",
+  "version": "v20261011_080801",
+  "dataset_id": "maxwell_telecom___space_1adb2b23",
+  "status": "APPROVED",
+  "trained_at": "2026-10-11T08:08:01.970734+00:00",
+  "random_seed": 42,
+  "split_strategy": "random",
+  "train_rows": 49,
+  "test_rows": 13
+}

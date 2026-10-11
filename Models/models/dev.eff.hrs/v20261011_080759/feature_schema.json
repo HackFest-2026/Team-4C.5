@@ -1,0 +1,18 @@
+{
+  "target": "dev.eff.hrs.",
+  "features": {
+    "hw": "numeric",
+    "at": "numeric",
+    "FP": "numeric",
+    "co": "numeric",
+    "prod": "numeric"
+  },
+  "numeric_features": [
+    "hw",
+    "at",
+    "FP",
+    "co",
+    "prod"
+  ],
+  "categorical_features": []
+}

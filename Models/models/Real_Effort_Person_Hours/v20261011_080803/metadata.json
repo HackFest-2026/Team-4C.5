@@ -1,0 +1,12 @@
+{
+  "algorithm": "RandomForest",
+  "target": "Real_Effort_Person_Hours",
+  "version": "v20261011_080803",
+  "dataset_id": "ucp_systems_projects_42985376",
+  "status": "APPROVED",
+  "trained_at": "2026-10-11T08:08:04.505365+00:00",
+  "random_seed": 42,
+  "split_strategy": "random",
+  "train_rows": 56,
+  "test_rows": 15
+}

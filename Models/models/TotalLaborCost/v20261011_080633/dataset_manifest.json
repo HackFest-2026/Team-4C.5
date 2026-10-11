@@ -1,0 +1,245 @@
+{
+  "dataset_id": "subbiah_labor_cost_projects_23a1efba",
+  "name": "Subbiah Labor Cost Projects",
+  "domain": "software",
+  "license": "PROMISE Repository Research Use",
+  "source": "http://promise.site.uottawa.ca/SERepository",
+  "notes": "",
+  "ingestion_timestamp": "2026-10-11T08:06:33.740786+00:00",
+  "original_filename": "Subbiah.csv",
+  "raw_file_path": "data\\raw\\subbiah_labor_cost_projects_23a1efba\\Subbiah.csv",
+  "processed_file_path": "data\\processed\\subbiah_labor_cost_projects_23a1efba\\data.csv",
+  "sha256": "23a1efbafcdaec1ed78cc779c07e652b33a17409e3021cf342d3227728a05071",
+  "row_count": 72,
+  "column_count": 12,
+  "columns": [
+    "Project",
+    "Actual des",
+    "Adjustment",
+    "CostPerFP",
+    "ExternalInterface",
+    "ExternalInputs",
+    "ExternalOutputs",
+    "ExternalQueries",
+    "HoursToCount",
+    "InternalLogicalFiles",
+    "TotalLaborCost",
+    "TotalUFP"
+  ],
+  "schema": {
+    "Project": {
+      "type": "categorical",
+      "non_null_count": 72,
+      "unique_count": 72
+    },
+    "Actual des": {
+      "type": "numeric",
+      "non_null_count": 72,
+      "unique_count": 72
+    },
+    "Adjustment": {
+      "type": "numeric",
+      "non_null_count": 72,
+      "unique_count": 33
+    },
+    "CostPerFP": {
+      "type": "numeric",
+      "non_null_count": 72,
+      "unique_count": 70
+    },
+    "ExternalInterface": {
+      "type": "numeric",
+      "non_null_count": 72,
+      "unique_count": 49
+    },
+    "ExternalInputs": {
+      "type": "numeric",
+      "non_null_count": 72,
+      "unique_count": 37
+    },
+    "ExternalOutputs": {
+      "type": "numeric",
+      "non_null_count": 72,
+      "unique_count": 39
+    },
+    "ExternalQueries": {
+      "type": "numeric",
+      "non_null_count": 72,
+      "unique_count": 52
+    },
+    "HoursToCount": {
+      "type": "numeric",
+      "non_null_count": 51,
+      "unique_count": 25
+    },
+    "InternalLogicalFiles": {
+      "type": "numeric",
+      "non_null_count": 72,
+      "unique_count": 51
+    },
+    "TotalLaborCost": {
+      "type": "numeric",
+      "non_null_count": 72,
+      "unique_count": 72
+    },
+    "TotalUFP": {
+      "type": "numeric",
+      "non_null_count": 72,
+      "unique_count": 68
+    }
+  },
+  "quality_summary": {
+    "total_rows": 72,
+    "total_columns": 12,
+    "duplicate_rows": 0,
+    "overall_missing_percentage": 2.43,
+    "missing_per_column": {
+      "Project": 0,
+      "Actual des": 0,
+      "Adjustment": 0,
+      "CostPerFP": 0,
+      "ExternalInterface": 0,
+      "ExternalInputs": 0,
+      "ExternalOutputs": 0,
+      "ExternalQueries": 0,
+      "HoursToCount": 21,
+      "InternalLogicalFiles": 0,
+      "TotalLaborCost": 0,
+      "TotalUFP": 0
+    },
+    "missing_percentage_per_column": {
+      "Project": 0.0,
+      "Actual des": 0.0,
+      "Adjustment": 0.0,
+      "CostPerFP": 0.0,
+      "ExternalInterface": 0.0,
+      "ExternalInputs": 0.0,
+      "ExternalOutputs": 0.0,
+      "ExternalQueries": 0.0,
+      "HoursToCount": 29.17,
+      "InternalLogicalFiles": 0.0,
+      "TotalLaborCost": 0.0,
+      "TotalUFP": 0.0
+    },
+    "column_types": {
+      "Project": "categorical",
+      "Actual des": "numeric",
+      "Adjustment": "numeric",
+      "CostPerFP": "numeric",
+      "ExternalInterface": "numeric",
+      "ExternalInputs": "numeric",
+      "ExternalOutputs": "numeric",
+      "ExternalQueries": "numeric",
+      "HoursToCount": "numeric",
+      "InternalLogicalFiles": "numeric",
+      "TotalLaborCost": "numeric",
+      "TotalUFP": "numeric"
+    },
+    "numeric_stats": {
+      "Actual des": {
+        "min": 0.0,
+        "median": 163544.0,
+        "mean": 266642.90277777775,
+        "max": 1063230.0,
+        "std": 279075.09590012947,
+        "zeros": 1
+      },
+      "Adjustment": {
+        "min": 0.78,
+        "median": 1.1,
+        "mean": 1.0772222222222223,
+        "max": 1.27,
+        "std": 0.09339032465225798,
+        "zeros": 0
+      },
+      "CostPerFP": {
+        "min": 59.0,
+        "median": 1561.5,
+        "mean": 2985.9166666666665,
+        "max": 54697.0,
+        "std": 6982.574884748947,
+        "zeros": 0
+      },
+      "ExternalInterface": {
+        "min": 0.0,
+        "median": 32.5,
+        "mean": 50.958333333333336,
+        "max": 324.0,
+        "std": 59.07680307846584,
+        "zeros": 5
+      },
+      "ExternalInputs": {
+        "min": 0.0,
+        "median": 34.0,
+        "mean": 38.986111111111114,
+        "max": 198.0,
+        "std": 34.20505401069854,
+        "zeros": 7
+      },
+      "ExternalOutputs": {
+        "min": 0.0,
+        "median": 21.0,
+        "mean": 40.68055555555556,
+        "max": 605.0,
+        "std": 80.47654305936359,
+        "zeros": 7
+      },
+      "ExternalQueries": {
+        "min": 0.0,
+        "median": 34.0,
+        "mean": 59.083333333333336,
+        "max": 429.0,
+        "std": 72.94697089927917,
+        "zeros": 2
+      },
+      "HoursToCount": {
+        "min": 1.0,
+        "median": 15.0,
+        "mean": 22.274509803921568,
+        "max": 120.0,
+        "std": 25.807811554932393,
+        "zeros": 0
+      },
+      "InternalLogicalFiles": {
+        "min": 0.0,
+        "median": 54.5,
+        "mean": 69.30555555555556,
+        "max": 365.0,
+        "std": 62.90897490526032,
+        "zeros": 3
+      },
+      "TotalLaborCost": {
+        "min": 217.0,
+        "median": 7571.0,
+        "mean": 9743.027777777777,
+        "max": 43609.0,
+        "std": 9345.753374665019,
+        "zeros": 0
+      },
+      "TotalUFP": {
+        "min": 16.0,
+        "median": 197.0,
+        "mean": 259.1388888888889,
+        "max": 1210.0,
+        "std": 213.2661040634681,
+        "zeros": 0
+      }
+    },
+    "extreme_outlier_counts_3iqr": {
+      "Project": 0,
+      "Actual des": 0,
+      "Adjustment": 0,
+      "CostPerFP": 5,
+      "ExternalInterface": 2,
+      "ExternalInputs": 1,
+      "ExternalOutputs": 2,
+      "ExternalQueries": 2,
+      "HoursToCount": 2,
+      "InternalLogicalFiles": 1,
+      "TotalLaborCost": 1,
+      "TotalUFP": 1
+    },
+    "sample_size_adequate_for_ml": true,
+    "sample_size_recommended": true
+  }
+}

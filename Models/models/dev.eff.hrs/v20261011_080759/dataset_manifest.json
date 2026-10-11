@@ -1,0 +1,199 @@
+{
+  "dataset_id": "finnish_software_projects_abaf7925",
+  "name": "Finnish Software Projects",
+  "domain": "software",
+  "license": "PROMISE Repository Research Use",
+  "source": "http://promise.site.uottawa.ca/SERepository",
+  "notes": "",
+  "ingestion_timestamp": "2026-10-11T08:07:59.249621+00:00",
+  "original_filename": "finnish.arff",
+  "raw_file_path": "data\\raw\\finnish_software_projects_abaf7925\\finnish.arff",
+  "processed_file_path": "data\\processed\\finnish_software_projects_abaf7925\\data.csv",
+  "sha256": "abaf7925580e89de54cb5d9d44b6f12e4db83aa80e2a7080ca57e62f8b91a42e",
+  "row_count": 38,
+  "column_count": 9,
+  "columns": [
+    "ID",
+    "dev.eff.hrs.",
+    "hw",
+    "at",
+    "FP",
+    "co",
+    "prod",
+    "lnsize",
+    "lneff"
+  ],
+  "schema": {
+    "ID": {
+      "type": "numeric",
+      "non_null_count": 38,
+      "unique_count": 38
+    },
+    "dev.eff.hrs.": {
+      "type": "numeric",
+      "non_null_count": 38,
+      "unique_count": 37
+    },
+    "hw": {
+      "type": "numeric",
+      "non_null_count": 38,
+      "unique_count": 3
+    },
+    "at": {
+      "type": "numeric",
+      "non_null_count": 38,
+      "unique_count": 5
+    },
+    "FP": {
+      "type": "numeric",
+      "non_null_count": 38,
+      "unique_count": 38
+    },
+    "co": {
+      "type": "numeric",
+      "non_null_count": 38,
+      "unique_count": 9
+    },
+    "prod": {
+      "type": "numeric",
+      "non_null_count": 38,
+      "unique_count": 38
+    },
+    "lnsize": {
+      "type": "numeric",
+      "non_null_count": 38,
+      "unique_count": 35
+    },
+    "lneff": {
+      "type": "numeric",
+      "non_null_count": 38,
+      "unique_count": 37
+    }
+  },
+  "quality_summary": {
+    "total_rows": 38,
+    "total_columns": 9,
+    "duplicate_rows": 0,
+    "overall_missing_percentage": 0.0,
+    "missing_per_column": {
+      "ID": 0,
+      "dev.eff.hrs.": 0,
+      "hw": 0,
+      "at": 0,
+      "FP": 0,
+      "co": 0,
+      "prod": 0,
+      "lnsize": 0,
+      "lneff": 0
+    },
+    "missing_percentage_per_column": {
+      "ID": 0.0,
+      "dev.eff.hrs.": 0.0,
+      "hw": 0.0,
+      "at": 0.0,
+      "FP": 0.0,
+      "co": 0.0,
+      "prod": 0.0,
+      "lnsize": 0.0,
+      "lneff": 0.0
+    },
+    "column_types": {
+      "ID": "numeric",
+      "dev.eff.hrs.": "numeric",
+      "hw": "numeric",
+      "at": "numeric",
+      "FP": "numeric",
+      "co": "numeric",
+      "prod": "numeric",
+      "lnsize": "numeric",
+      "lneff": "numeric"
+    },
+    "numeric_stats": {
+      "ID": {
+        "min": 1.0,
+        "median": 19.5,
+        "mean": 19.5,
+        "max": 38.0,
+        "std": 11.113055385446435,
+        "zeros": 0
+      },
+      "dev.eff.hrs.": {
+        "min": 460.0,
+        "median": 5430.0,
+        "mean": 7678.289473684211,
+        "max": 26670.0,
+        "std": 7135.279948324894,
+        "zeros": 0
+      },
+      "hw": {
+        "min": 1.0,
+        "median": 1.0,
+        "mean": 1.263157894736842,
+        "max": 3.0,
+        "std": 0.6444864088188399,
+        "zeros": 0
+      },
+      "at": {
+        "min": 1.0,
+        "median": 1.0,
+        "mean": 2.236842105263158,
+        "max": 5.0,
+        "std": 1.4965584036303194,
+        "zeros": 0
+      },
+      "FP": {
+        "min": 65.0,
+        "median": 637.5,
+        "mean": 763.578947368421,
+        "max": 1814.0,
+        "std": 510.83374518573424,
+        "zeros": 0
+      },
+      "co": {
+        "min": 2.0,
+        "median": 7.0,
+        "mean": 6.2631578947368425,
+        "max": 10.0,
+        "std": 2.7280743681540707,
+        "zeros": 0
+      },
+      "prod": {
+        "min": 1.472637,
+        "median": 8.4461385,
+        "mean": 10.073839736842105,
+        "max": 29.473262,
+        "std": 7.086170078057382,
+        "zeros": 0
+      },
+      "lnsize": {
+        "min": 4.17,
+        "median": 6.455,
+        "mean": 6.356578947368422,
+        "max": 7.5,
+        "std": 0.8354907161914519,
+        "zeros": 0
+      },
+      "lneff": {
+        "min": 6.131226,
+        "median": 8.593551999999999,
+        "mean": 8.396567157894738,
+        "max": 10.191295,
+        "std": 1.1791403220411578,
+        "zeros": 0
+      }
+    },
+    "extreme_outlier_counts_3iqr": {
+      "ID": 0,
+      "dev.eff.hrs.": 0,
+      "hw": 6,
+      "at": 0,
+      "FP": 0,
+      "co": 0,
+      "prod": 0,
+      "lnsize": 0,
+      "lneff": 0
+    },
+    "sample_size_adequate_for_ml": true,
+    "sample_size_recommended": false
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "dataset_id": "albrecht_software_projects_cfd9713c",
+  "name": "Albrecht Software Projects",
+  "domain": "software",
+  "license": "PROMISE Repository Research Use",
+  "source": "http://promise.site.uottawa.ca/SERepository",
+  "notes": "",
+  "ingestion_timestamp": "2026-10-11T08:07:56.312940+00:00",
+  "original_filename": "albrecht.arff",
+  "raw_file_path": "data\\raw\\albrecht_software_projects_cfd9713c\\albrecht.arff",
+  "processed_file_path": "data\\processed\\albrecht_software_projects_cfd9713c\\data.csv",
+  "sha256": "cfd9713c6a0a45e318fd5345d3f45ac1cfbbf59191d91a645eabd6541890fd18",
+  "row_count": 24,
+  "column_count": 8,
+  "columns": [
+    "Input",
+    "Output",
+    "Inquiry",
+    "File",
+    "FPAdj",
+    "RawFPcounts",
+    "AdjFP",
+    "Effort"
+  ],
+  "schema": {
+    "Input": {
+      "type": "numeric",
+      "non_null_count": 24,
+      "unique_count": 21
+    },
+    "Output": {
+      "type": "numeric",
+      "non_null_count": 24,
+      "unique_count": 20
+    },
+    "Inquiry": {
+      "type": "numeric",
+      "non_null_count": 24,
+      "unique_count": 16
+    },
+    "File": {
+      "type": "numeric",
+      "non_null_count": 24,
+      "unique_count": 16
+    },
+    "FPAdj": {
+      "type": "numeric",
+      "non_null_count": 24,
+      "unique_count": 10
+    },
+    "RawFPcounts": {
+      "type": "numeric",
+      "non_null_count": 24,
+      "unique_count": 24
+    },
+    "AdjFP": {
+      "type": "numeric",
+      "non_null_count": 24,
+      "unique_count": 23
+    },
+    "Effort": {
+      "type": "numeric",
+      "non_null_count": 24,
+      "unique_count": 24
+    }
+  },
+  "quality_summary": {
+    "total_rows": 24,
+    "total_columns": 8,
+    "duplicate_rows": 0,
+    "overall_missing_percentage": 0.0,
+    "missing_per_column": {
+      "Input": 0,
+      "Output": 0,
+      "Inquiry": 0,
+      "File": 0,
+      "FPAdj": 0,
+      "RawFPcounts": 0,
+      "AdjFP": 0,
+      "Effort": 0
+    },
+    "missing_percentage_per_column": {
+      "Input": 0.0,
+      "Output": 0.0,
+      "Inquiry": 0.0,
+      "File": 0.0,
+      "FPAdj": 0.0,
+      "RawFPcounts": 0.0,
+      "AdjFP": 0.0,
+      "Effort": 0.0
+    },
+    "column_types": {
+      "Input": "numeric",
+      "Output": "numeric",
+      "Inquiry": "numeric",
+      "File": "numeric",
+      "FPAdj": "numeric",
+      "RawFPcounts": "numeric",
+      "AdjFP": "numeric",
+      "Effort": "numeric"
+    },
+    "numeric_stats": {
+      "Input": {
+        "min": 7.0,
+        "median": 33.5,
+        "mean": 40.25,
+        "max": 193.0,
+        "std": 36.91382443993861,
+        "zeros": 0
+      },
+      "Output": {
+        "min": 12.0,
+        "median": 39.0,
+        "mean": 47.25,
+        "max": 150.0,
+        "std": 35.1694655112617,
+        "zeros": 0
+      },
+      "Inquiry": {
+        "min": 0.0,
+        "median": 13.5,
+        "mean": 16.875,
+        "max": 75.0,
+        "std": 19.337533901490758,
+        "zeros": 5
+      },
+      "File": {
+        "min": 3.0,
+        "median": 11.5,
+        "mean": 17.375,
+        "max": 60.0,
+        "std": 15.522249108660263,
+        "zeros": 0
+      },
+      "FPAdj": {
+        "min": 0.75,
+        "median": 1.0,
+        "mean": 0.9895833333333334,
+        "max": 1.2,
+        "std": 0.13511602636145775,
+        "zeros": 0
+      },
+      "RawFPcounts": {
+        "min": 189.52,
+        "median": 489.105,
+        "mean": 638.5395833333333,
+        "max": 1902.0,
+        "std": 452.6535415167377,
+        "zeros": 0
+      },
+      "AdjFP": {
+        "min": 199.0,
+        "median": 506.0,
+        "mean": 647.625,
+        "max": 1902.0,
+        "std": 487.9952612474838,
+        "zeros": 0
+      },
+      "Effort": {
+        "min": 0.5,
+        "median": 11.45,
+        "mean": 21.875,
+        "max": 105.2,
+        "std": 28.417894699122858,
+        "zeros": 0
+      }
+    },
+    "extreme_outlier_counts_3iqr": {
+      "Input": 1,
+      "Output": 0,
+      "Inquiry": 1,
+      "File": 0,
+      "FPAdj": 0,
+      "RawFPcounts": 1,
+      "AdjFP": 0,
+      "Effort": 3
+    },
+    "sample_size_adequate_for_ml": false,
+    "sample_size_recommended": false
+  }
+}

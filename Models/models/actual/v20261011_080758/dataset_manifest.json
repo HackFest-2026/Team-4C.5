@@ -1,0 +1,371 @@
+{
+  "dataset_id": "cocomo-81_software_projects_f7deb2ce",
+  "name": "COCOMO-81 Software Projects",
+  "domain": "software",
+  "license": "Boehm COCOMO Public Domain",
+  "source": "http://promise.site.uottawa.ca/SERepository",
+  "notes": "",
+  "ingestion_timestamp": "2026-10-11T08:07:58.185122+00:00",
+  "original_filename": "COCOMO-81.csv",
+  "raw_file_path": "data\\raw\\cocomo-81_software_projects_f7deb2ce\\COCOMO-81.csv",
+  "processed_file_path": "data\\processed\\cocomo-81_software_projects_f7deb2ce\\data.csv",
+  "sha256": "f7deb2ceffcb5f6631899e2439cbde5a0b25e22852f29c9bbe22d2f22435ab78",
+  "row_count": 63,
+  "column_count": 19,
+  "columns": [
+    "num",
+    "dev_mode",
+    "rely",
+    "data",
+    "cplx",
+    "time",
+    "stor",
+    "virt",
+    "turn",
+    "acap",
+    "aexp",
+    "pcap",
+    "vexp",
+    "lexp",
+    "modp",
+    "tool",
+    "sced",
+    "loc",
+    "actual"
+  ],
+  "schema": {
+    "num": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 63
+    },
+    "dev_mode": {
+      "type": "categorical",
+      "non_null_count": 63,
+      "unique_count": 3
+    },
+    "rely": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 6
+    },
+    "data": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 5
+    },
+    "cplx": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 7
+    },
+    "time": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 11
+    },
+    "stor": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 5
+    },
+    "virt": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 4
+    },
+    "turn": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 5
+    },
+    "acap": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 7
+    },
+    "aexp": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 5
+    },
+    "pcap": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 7
+    },
+    "vexp": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 4
+    },
+    "lexp": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 4
+    },
+    "modp": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 6
+    },
+    "tool": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 6
+    },
+    "sced": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 4
+    },
+    "loc": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 54
+    },
+    "actual": {
+      "type": "numeric",
+      "non_null_count": 63,
+      "unique_count": 61
+    }
+  },
+  "quality_summary": {
+    "total_rows": 63,
+    "total_columns": 19,
+    "duplicate_rows": 0,
+    "overall_missing_percentage": 0.0,
+    "missing_per_column": {
+      "num": 0,
+      "dev_mode": 0,
+      "rely": 0,
+      "data": 0,
+      "cplx": 0,
+      "time": 0,
+      "stor": 0,
+      "virt": 0,
+      "turn": 0,
+      "acap": 0,
+      "aexp": 0,
+      "pcap": 0,
+      "vexp": 0,
+      "lexp": 0,
+      "modp": 0,
+      "tool": 0,
+      "sced": 0,
+      "loc": 0,
+      "actual": 0
+    },
+    "missing_percentage_per_column": {
+      "num": 0.0,
+      "dev_mode": 0.0,
+      "rely": 0.0,
+      "data": 0.0,
+      "cplx": 0.0,
+      "time": 0.0,
+      "stor": 0.0,
+      "virt": 0.0,
+      "turn": 0.0,
+      "acap": 0.0,
+      "aexp": 0.0,
+      "pcap": 0.0,
+      "vexp": 0.0,
+      "lexp": 0.0,
+      "modp": 0.0,
+      "tool": 0.0,
+      "sced": 0.0,
+      "loc": 0.0,
+      "actual": 0.0
+    },
+    "column_types": {
+      "num": "numeric",
+      "dev_mode": "categorical",
+      "rely": "numeric",
+      "data": "numeric",
+      "cplx": "numeric",
+      "time": "numeric",
+      "stor": "numeric",
+      "virt": "numeric",
+      "turn": "numeric",
+      "acap": "numeric",
+      "aexp": "numeric",
+      "pcap": "numeric",
+      "vexp": "numeric",
+      "lexp": "numeric",
+      "modp": "numeric",
+      "tool": "numeric",
+      "sced": "numeric",
+      "loc": "numeric",
+      "actual": "numeric"
+    },
+    "numeric_stats": {
+      "num": {
+        "min": 1.0,
+        "median": 32.0,
+        "mean": 32.0,
+        "max": 63.0,
+        "std": 18.33030277982336,
+        "zeros": 0
+      },
+      "rely": {
+        "min": 0.75,
+        "median": 1.0,
+        "mean": 1.0363492063492061,
+        "max": 1.4,
+        "std": 0.19347669349763885,
+        "zeros": 0
+      },
+      "data": {
+        "min": 0.94,
+        "median": 1.0,
+        "mean": 1.004444444444444,
+        "max": 1.16,
+        "std": 0.07383018391787786,
+        "zeros": 0
+      },
+      "cplx": {
+        "min": 0.7,
+        "median": 1.07,
+        "mean": 1.092063492063492,
+        "max": 1.65,
+        "std": 0.2017276887783798,
+        "zeros": 0
+      },
+      "time": {
+        "min": 1.0,
+        "median": 1.06,
+        "mean": 1.1138095238095238,
+        "max": 1.66,
+        "std": 0.16163906996791388,
+        "zeros": 0
+      },
+      "stor": {
+        "min": 1.0,
+        "median": 1.06,
+        "mean": 1.1438095238095236,
+        "max": 1.56,
+        "std": 0.179420470039303,
+        "zeros": 0
+      },
+      "virt": {
+        "min": 0.87,
+        "median": 1.0,
+        "mean": 1.0084126984126984,
+        "max": 1.3,
+        "std": 0.12059270760071726,
+        "zeros": 0
+      },
+      "turn": {
+        "min": 0.87,
+        "median": 1.0,
+        "mean": 0.9717460317460316,
+        "max": 1.15,
+        "std": 0.08097270911298296,
+        "zeros": 0
+      },
+      "acap": {
+        "min": 0.71,
+        "median": 0.86,
+        "mean": 0.9052380952380953,
+        "max": 1.46,
+        "std": 0.1515070225441195,
+        "zeros": 0
+      },
+      "aexp": {
+        "min": 0.82,
+        "median": 1.0,
+        "mean": 0.9485714285714286,
+        "max": 1.29,
+        "std": 0.11924300402630164,
+        "zeros": 0
+      },
+      "pcap": {
+        "min": 0.7,
+        "median": 0.86,
+        "mean": 0.9374603174603175,
+        "max": 1.42,
+        "std": 0.16651037218461465,
+        "zeros": 0
+      },
+      "vexp": {
+        "min": 0.9,
+        "median": 1.0,
+        "mean": 1.0052380952380953,
+        "max": 1.21,
+        "std": 0.09337501812163995,
+        "zeros": 0
+      },
+      "lexp": {
+        "min": 0.95,
+        "median": 1.0,
+        "mean": 1.0014285714285716,
+        "max": 1.14,
+        "std": 0.05198812342216756,
+        "zeros": 0
+      },
+      "modp": {
+        "min": 0.82,
+        "median": 1.0,
+        "mean": 1.004126984126984,
+        "max": 1.24,
+        "std": 0.1309350358572959,
+        "zeros": 0
+      },
+      "tool": {
+        "min": 0.83,
+        "median": 1.0,
+        "mean": 1.016984126984127,
+        "max": 1.24,
+        "std": 0.08573467926023043,
+        "zeros": 0
+      },
+      "sced": {
+        "min": 1.0,
+        "median": 1.0,
+        "mean": 1.0488888888888888,
+        "max": 1.23,
+        "std": 0.07558612074147952,
+        "zeros": 0
+      },
+      "loc": {
+        "min": 1.98,
+        "median": 25.0,
+        "mean": 77.20984126984128,
+        "max": 1150.0,
+        "std": 168.50937448309537,
+        "zeros": 0
+      },
+      "actual": {
+        "min": 5.9,
+        "median": 98.0,
+        "mean": 683.5269841269841,
+        "max": 11400.0,
+        "std": 1821.5113336941504,
+        "zeros": 0
+      }
+    },
+    "extreme_outlier_counts_3iqr": {
+      "num": 0,
+      "dev_mode": 0,
+      "rely": 0,
+      "data": 0,
+      "cplx": 0,
+      "time": 4,
+      "stor": 0,
+      "virt": 0,
+      "turn": 0,
+      "acap": 1,
+      "aexp": 0,
+      "pcap": 0,
+      "vexp": 0,
+      "lexp": 0,
+      "modp": 0,
+      "tool": 0,
+      "sced": 0,
+      "loc": 7,
+      "actual": 5
+    },
+    "sample_size_adequate_for_ml": true,
+    "sample_size_recommended": true
+  }
+}

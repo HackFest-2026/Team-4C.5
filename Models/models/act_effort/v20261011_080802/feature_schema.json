@@ -1,0 +1,51 @@
+{
+  "target": "act_effort",
+  "features": {
+    "cat2": "categorical",
+    "forg": "categorical",
+    "center": "numeric",
+    "year": "numeric",
+    "mode": "categorical",
+    "rely": "categorical",
+    "data": "categorical",
+    "cplx": "categorical",
+    "time": "categorical",
+    "stor": "categorical",
+    "virt": "categorical",
+    "turn": "categorical",
+    "acap": "categorical",
+    "aexp": "categorical",
+    "pcap": "categorical",
+    "vexp": "categorical",
+    "lexp": "categorical",
+    "modp": "categorical",
+    "tool": "categorical",
+    "sced": "categorical",
+    "equivphyskloc": "numeric"
+  },
+  "numeric_features": [
+    "center",
+    "year",
+    "equivphyskloc"
+  ],
+  "categorical_features": [
+    "cat2",
+    "forg",
+    "mode",
+    "rely",
+    "data",
+    "cplx",
+    "time",
+    "stor",
+    "virt",
+    "turn",
+    "acap",
+    "aexp",
+    "pcap",
+    "vexp",
+    "lexp",
+    "modp",
+    "tool",
+    "sced"
+  ]
+}

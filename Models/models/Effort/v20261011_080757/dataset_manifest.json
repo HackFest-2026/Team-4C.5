@@ -1,0 +1,379 @@
+{
+  "dataset_id": "china_software_projects_ae9df9c5",
+  "name": "China Software Projects",
+  "domain": "software",
+  "license": "PROMISE Repository Research Use",
+  "source": "http://promise.site.uottawa.ca/SERepository",
+  "notes": "",
+  "ingestion_timestamp": "2026-10-11T08:07:57.313726+00:00",
+  "original_filename": "china.arff",
+  "raw_file_path": "data\\raw\\china_software_projects_ae9df9c5\\china.arff",
+  "processed_file_path": "data\\processed\\china_software_projects_ae9df9c5\\data.csv",
+  "sha256": "ae9df9c52c5bc5ba03b9732ecc159093f0c500ffa0f3d8260ddd7350f0a22c58",
+  "row_count": 499,
+  "column_count": 19,
+  "columns": [
+    "ID",
+    "AFP",
+    "Input",
+    "Output",
+    "Enquiry",
+    "File",
+    "Interface",
+    "Added",
+    "Changed",
+    "Deleted",
+    "PDR_AFP",
+    "PDR_UFP",
+    "NPDR_AFP",
+    "NPDU_UFP",
+    "Resource",
+    "Dev.Type",
+    "Duration",
+    "N_effort",
+    "Effort"
+  ],
+  "schema": {
+    "ID": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 499
+    },
+    "AFP": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 351
+    },
+    "Input": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 236
+    },
+    "Output": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 205
+    },
+    "Enquiry": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 162
+    },
+    "File": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 150
+    },
+    "Interface": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 70
+    },
+    "Added": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 307
+    },
+    "Changed": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 163
+    },
+    "Deleted": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 43
+    },
+    "PDR_AFP": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 228
+    },
+    "PDR_UFP": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 227
+    },
+    "NPDR_AFP": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 236
+    },
+    "NPDU_UFP": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 239
+    },
+    "Resource": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 4
+    },
+    "Dev.Type": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 1
+    },
+    "Duration": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 39
+    },
+    "N_effort": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 481
+    },
+    "Effort": {
+      "type": "numeric",
+      "non_null_count": 499,
+      "unique_count": 483
+    }
+  },
+  "quality_summary": {
+    "total_rows": 499,
+    "total_columns": 19,
+    "duplicate_rows": 0,
+    "overall_missing_percentage": 0.0,
+    "missing_per_column": {
+      "ID": 0,
+      "AFP": 0,
+      "Input": 0,
+      "Output": 0,
+      "Enquiry": 0,
+      "File": 0,
+      "Interface": 0,
+      "Added": 0,
+      "Changed": 0,
+      "Deleted": 0,
+      "PDR_AFP": 0,
+      "PDR_UFP": 0,
+      "NPDR_AFP": 0,
+      "NPDU_UFP": 0,
+      "Resource": 0,
+      "Dev.Type": 0,
+      "Duration": 0,
+      "N_effort": 0,
+      "Effort": 0
+    },
+    "missing_percentage_per_column": {
+      "ID": 0.0,
+      "AFP": 0.0,
+      "Input": 0.0,
+      "Output": 0.0,
+      "Enquiry": 0.0,
+      "File": 0.0,
+      "Interface": 0.0,
+      "Added": 0.0,
+      "Changed": 0.0,
+      "Deleted": 0.0,
+      "PDR_AFP": 0.0,
+      "PDR_UFP": 0.0,
+      "NPDR_AFP": 0.0,
+      "NPDU_UFP": 0.0,
+      "Resource": 0.0,
+      "Dev.Type": 0.0,
+      "Duration": 0.0,
+      "N_effort": 0.0,
+      "Effort": 0.0
+    },
+    "column_types": {
+      "ID": "numeric",
+      "AFP": "numeric",
+      "Input": "numeric",
+      "Output": "numeric",
+      "Enquiry": "numeric",
+      "File": "numeric",
+      "Interface": "numeric",
+      "Added": "numeric",
+      "Changed": "numeric",
+      "Deleted": "numeric",
+      "PDR_AFP": "numeric",
+      "PDR_UFP": "numeric",
+      "NPDR_AFP": "numeric",
+      "NPDU_UFP": "numeric",
+      "Resource": "numeric",
+      "Dev.Type": "numeric",
+      "Duration": "numeric",
+      "N_effort": "numeric",
+      "Effort": "numeric"
+    },
+    "numeric_stats": {
+      "ID": {
+        "min": 1.0,
+        "median": 250.0,
+        "mean": 250.0,
+        "max": 499.0,
+        "std": 144.19315748906627,
+        "zeros": 0
+      },
+      "AFP": {
+        "min": 9.0,
+        "median": 215.0,
+        "mean": 486.85771543086173,
+        "max": 17518.0,
+        "std": 1059.1714357538438,
+        "zeros": 0
+      },
+      "Input": {
+        "min": 0.0,
+        "median": 63.0,
+        "mean": 167.09819639278558,
+        "max": 9404.0,
+        "std": 486.3385746716047,
+        "zeros": 26
+      },
+      "Output": {
+        "min": 0.0,
+        "median": 42.0,
+        "mean": 113.60120240480961,
+        "max": 2455.0,
+        "std": 221.27437419016718,
+        "zeros": 55
+      },
+      "Enquiry": {
+        "min": 0.0,
+        "median": 24.0,
+        "mean": 61.60120240480962,
+        "max": 952.0,
+        "std": 105.42283993174445,
+        "zeros": 81
+      },
+      "File": {
+        "min": 0.0,
+        "median": 36.0,
+        "mean": 91.23446893787575,
+        "max": 2955.0,
+        "std": 210.27098392548723,
+        "zeros": 79
+      },
+      "Interface": {
+        "min": 0.0,
+        "median": 0.0,
+        "mean": 24.23446893787575,
+        "max": 1572.0,
+        "std": 85.0409961038904,
+        "zeros": 252
+      },
+      "Added": {
+        "min": 0.0,
+        "median": 135.0,
+        "mean": 360.3547094188377,
+        "max": 13580.0,
+        "std": 829.8423329906466,
+        "zeros": 38
+      },
+      "Changed": {
+        "min": 0.0,
+        "median": 4.0,
+        "mean": 85.062124248497,
+        "max": 5193.0,
+        "std": 290.8570394849822,
+        "zeros": 245
+      },
+      "Deleted": {
+        "min": 0.0,
+        "median": 0.0,
+        "mean": 12.352705410821644,
+        "max": 2657.0,
+        "std": 124.22412964169375,
+        "zeros": 435
+      },
+      "PDR_AFP": {
+        "min": 0.3,
+        "median": 8.1,
+        "mean": 11.770541082164328,
+        "max": 83.8,
+        "std": 12.105649130521702,
+        "zeros": 0
+      },
+      "PDR_UFP": {
+        "min": 0.3,
+        "median": 8.0,
+        "mean": 12.079759519038074,
+        "max": 96.6,
+        "std": 12.81871009330147,
+        "zeros": 0
+      },
+      "NPDR_AFP": {
+        "min": 0.4,
+        "median": 8.8,
+        "mean": 13.269739478957916,
+        "max": 101.0,
+        "std": 14.009839705240408,
+        "zeros": 0
+      },
+      "NPDU_UFP": {
+        "min": 0.4,
+        "median": 8.9,
+        "mean": 13.62625250501002,
+        "max": 108.3,
+        "std": 14.8434160551104,
+        "zeros": 0
+      },
+      "Resource": {
+        "min": 1.0,
+        "median": 1.0,
+        "mean": 1.4589178356713426,
+        "max": 4.0,
+        "std": 0.8237291728860763,
+        "zeros": 0
+      },
+      "Dev.Type": {
+        "min": 0.0,
+        "median": 0.0,
+        "mean": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "zeros": 499
+      },
+      "Duration": {
+        "min": 1.0,
+        "median": 7.0,
+        "mean": 8.719238476953906,
+        "max": 84.0,
+        "std": 7.347058438042434,
+        "zeros": 0
+      },
+      "N_effort": {
+        "min": 31.0,
+        "median": 2098.0,
+        "mean": 4277.6412825651305,
+        "max": 54620.0,
+        "std": 7071.248035580563,
+        "zeros": 0
+      },
+      "Effort": {
+        "min": 26.0,
+        "median": 1829.0,
+        "mean": 3921.048096192385,
+        "max": 54620.0,
+        "std": 6480.855599912643,
+        "zeros": 0
+      }
+    },
+    "extreme_outlier_counts_3iqr": {
+      "ID": 0,
+      "AFP": 34,
+      "Input": 35,
+      "Output": 32,
+      "Enquiry": 21,
+      "File": 31,
+      "Interface": 31,
+      "Added": 43,
+      "Changed": 25,
+      "Deleted": 64,
+      "PDR_AFP": 13,
+      "PDR_UFP": 10,
+      "NPDR_AFP": 16,
+      "NPDU_UFP": 13,
+      "Resource": 0,
+      "Dev.Type": 0,
+      "Duration": 9,
+      "N_effort": 32,
+      "Effort": 33
+    },
+    "sample_size_adequate_for_ml": true,
+    "sample_size_recommended": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "algorithm": "Huber",
+  "target": "dev.eff.hrs.",
+  "version": "v20261011_080759",
+  "dataset_id": "finnish_software_projects_abaf7925",
+  "status": "APPROVED",
+  "trained_at": "2026-10-11T08:07:59.761101+00:00",
+  "random_seed": 42,
+  "split_strategy": "random",
+  "train_rows": 30,
+  "test_rows": 8
+}

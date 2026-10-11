@@ -1,0 +1,271 @@
+{
+  "dataset_id": "desharnais_software_projects_38c5d000",
+  "name": "Desharnais Software Projects",
+  "domain": "software",
+  "license": "PROMISE Repository Research Use",
+  "source": "http://promise.site.uottawa.ca/SERepository",
+  "notes": "",
+  "ingestion_timestamp": "2026-10-11T07:25:48.055585+00:00",
+  "original_filename": "Desharnais.csv",
+  "raw_file_path": "data\\raw\\desharnais_software_projects_38c5d000\\Desharnais.csv",
+  "processed_file_path": "data\\processed\\desharnais_software_projects_38c5d000\\data.csv",
+  "sha256": "38c5d00053555cbe7f3c10c2b026990ea981612ddefd5a7e0fcf8aa52bc4fd64",
+  "row_count": 81,
+  "column_count": 13,
+  "columns": [
+    "id",
+    "Project",
+    "TeamExp",
+    "ManagerExp",
+    "YearEnd",
+    "Length",
+    "Effort",
+    "Transactions",
+    "Entities",
+    "PointsNonAdjust",
+    "Adjustment",
+    "PointsAjust",
+    "Language"
+  ],
+  "schema": {
+    "id": {
+      "type": "numeric",
+      "non_null_count": 81,
+      "unique_count": 81
+    },
+    "Project": {
+      "type": "numeric",
+      "non_null_count": 81,
+      "unique_count": 81
+    },
+    "TeamExp": {
+      "type": "numeric",
+      "non_null_count": 81,
+      "unique_count": 6
+    },
+    "ManagerExp": {
+      "type": "numeric",
+      "non_null_count": 81,
+      "unique_count": 8
+    },
+    "YearEnd": {
+      "type": "numeric",
+      "non_null_count": 81,
+      "unique_count": 7
+    },
+    "Length": {
+      "type": "numeric",
+      "non_null_count": 81,
+      "unique_count": 26
+    },
+    "Effort": {
+      "type": "numeric",
+      "non_null_count": 81,
+      "unique_count": 81
+    },
+    "Transactions": {
+      "type": "numeric",
+      "non_null_count": 81,
+      "unique_count": 73
+    },
+    "Entities": {
+      "type": "numeric",
+      "non_null_count": 81,
+      "unique_count": 61
+    },
+    "PointsNonAdjust": {
+      "type": "numeric",
+      "non_null_count": 81,
+      "unique_count": 77
+    },
+    "Adjustment": {
+      "type": "numeric",
+      "non_null_count": 81,
+      "unique_count": 34
+    },
+    "PointsAjust": {
+      "type": "numeric",
+      "non_null_count": 81,
+      "unique_count": 77
+    },
+    "Language": {
+      "type": "numeric",
+      "non_null_count": 81,
+      "unique_count": 3
+    }
+  },
+  "quality_summary": {
+    "total_rows": 81,
+    "total_columns": 13,
+    "duplicate_rows": 0,
+    "overall_missing_percentage": 0.0,
+    "missing_per_column": {
+      "id": 0,
+      "Project": 0,
+      "TeamExp": 0,
+      "ManagerExp": 0,
+      "YearEnd": 0,
+      "Length": 0,
+      "Effort": 0,
+      "Transactions": 0,
+      "Entities": 0,
+      "PointsNonAdjust": 0,
+      "Adjustment": 0,
+      "PointsAjust": 0,
+      "Language": 0
+    },
+    "missing_percentage_per_column": {
+      "id": 0.0,
+      "Project": 0.0,
+      "TeamExp": 0.0,
+      "ManagerExp": 0.0,
+      "YearEnd": 0.0,
+      "Length": 0.0,
+      "Effort": 0.0,
+      "Transactions": 0.0,
+      "Entities": 0.0,
+      "PointsNonAdjust": 0.0,
+      "Adjustment": 0.0,
+      "PointsAjust": 0.0,
+      "Language": 0.0
+    },
+    "column_types": {
+      "id": "numeric",
+      "Project": "numeric",
+      "TeamExp": "numeric",
+      "ManagerExp": "numeric",
+      "YearEnd": "numeric",
+      "Length": "numeric",
+      "Effort": "numeric",
+      "Transactions": "numeric",
+      "Entities": "numeric",
+      "PointsNonAdjust": "numeric",
+      "Adjustment": "numeric",
+      "PointsAjust": "numeric",
+      "Language": "numeric"
+    },
+    "numeric_stats": {
+      "id": {
+        "min": 1.0,
+        "median": 41.0,
+        "mean": 41.0,
+        "max": 81.0,
+        "std": 23.526580712037184,
+        "zeros": 0
+      },
+      "Project": {
+        "min": 1.0,
+        "median": 41.0,
+        "mean": 41.0,
+        "max": 81.0,
+        "std": 23.526580712037184,
+        "zeros": 0
+      },
+      "TeamExp": {
+        "min": -1.0,
+        "median": 2.0,
+        "mean": 2.185185185185185,
+        "max": 4.0,
+        "std": 1.4151953143569187,
+        "zeros": 7
+      },
+      "ManagerExp": {
+        "min": -1.0,
+        "median": 3.0,
+        "mean": 2.5308641975308643,
+        "max": 7.0,
+        "std": 1.643824958390388,
+        "zeros": 5
+      },
+      "YearEnd": {
+        "min": 82.0,
+        "median": 86.0,
+        "mean": 85.74074074074075,
+        "max": 88.0,
+        "std": 1.2224747213928164,
+        "zeros": 0
+      },
+      "Length": {
+        "min": 1.0,
+        "median": 10.0,
+        "mean": 11.666666666666666,
+        "max": 39.0,
+        "std": 7.424621202458749,
+        "zeros": 0
+      },
+      "Effort": {
+        "min": 546.0,
+        "median": 3647.0,
+        "mean": 5046.308641975309,
+        "max": 23940.0,
+        "std": 4418.7672280908155,
+        "zeros": 0
+      },
+      "Transactions": {
+        "min": 9.0,
+        "median": 140.0,
+        "mean": 182.12345679012347,
+        "max": 886.0,
+        "std": 144.03509838890392,
+        "zeros": 0
+      },
+      "Entities": {
+        "min": 7.0,
+        "median": 99.0,
+        "mean": 122.33333333333333,
+        "max": 387.0,
+        "std": 84.88212414872757,
+        "zeros": 0
+      },
+      "PointsNonAdjust": {
+        "min": 73.0,
+        "median": 266.0,
+        "mean": 304.4567901234568,
+        "max": 1127.0,
+        "std": 180.2101585221208,
+        "zeros": 0
+      },
+      "Adjustment": {
+        "min": 5.0,
+        "median": 28.0,
+        "mean": 27.62962962962963,
+        "max": 52.0,
+        "std": 10.591794517979997,
+        "zeros": 0
+      },
+      "PointsAjust": {
+        "min": 62.0,
+        "median": 255.0,
+        "mean": 289.2345679012346,
+        "max": 1116.0,
+        "std": 185.761087933193,
+        "zeros": 0
+      },
+      "Language": {
+        "min": 1.0,
+        "median": 1.0,
+        "mean": 1.5555555555555556,
+        "max": 3.0,
+        "std": 0.7071067811865475,
+        "zeros": 0
+      }
+    },
+    "extreme_outlier_counts_3iqr": {
+      "id": 0,
+      "Project": 0,
+      "TeamExp": 0,
+      "ManagerExp": 0,
+      "YearEnd": 0,
+      "Length": 1,
+      "Effort": 2,
+      "Transactions": 2,
+      "Entities": 0,
+      "PointsNonAdjust": 1,
+      "Adjustment": 0,
+      "PointsAjust": 1,
+      "Language": 0
+    },
+    "sample_size_adequate_for_ml": true,
+    "sample_size_recommended": true
+  }
+}

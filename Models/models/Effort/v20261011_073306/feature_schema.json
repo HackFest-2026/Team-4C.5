@@ -1,0 +1,28 @@
+{
+  "target": "Effort",
+  "features": {
+    "TeamExp": "numeric",
+    "ManagerExp": "numeric",
+    "YearEnd": "numeric",
+    "Length": "numeric",
+    "Transactions": "numeric",
+    "Entities": "numeric",
+    "PointsNonAdjust": "numeric",
+    "Adjustment": "numeric",
+    "PointsAjust": "numeric",
+    "Language": "numeric"
+  },
+  "numeric_features": [
+    "TeamExp",
+    "ManagerExp",
+    "YearEnd",
+    "Length",
+    "Transactions",
+    "Entities",
+    "PointsNonAdjust",
+    "Adjustment",
+    "PointsAjust",
+    "Language"
+  ],
+  "categorical_features": []
+}
