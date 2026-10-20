@@ -262,12 +262,32 @@ textarea:focus { outline: none; border-color: var(--haldi); box-shadow: 0 0 0 3p
 .station-msg { margin-top: 2px; font-size: 13px; color: var(--dye-mute); line-height: 1.45; }
 .is-waiting .station-name { color: var(--dye-mute); }
 .is-error .station-msg { color: #F1B1A8; }
-.link-btn {
-  margin-top: 6px; padding: 0; border: 0; background: none;
-  color: var(--haldi); font-size: 13px; font-weight: 600; cursor: pointer;
-  text-decoration: underline; text-underline-offset: 3px;
+.stage-output-btn {
+  margin-top: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 5px 12px;
+  background: var(--haldi);
+  color: #1a1a1a;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.15s ease-in-out;
 }
-.stage-output-btn:hover { color: #F1C550; }
+.stage-output-btn:hover {
+  background: #F1C550;
+  color: #000;
+  transform: translateY(-1px);
+}
+.stage-output-btn:active {
+  transform: translateY(0);
+}
 
 /* ---------- Right pane: the estimate ---------- */
 .desk { min-width: 0; padding: 0 clamp(20px, 4vw, 56px) 72px; }
